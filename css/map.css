@@ -8,35 +8,54 @@
     font-style: normal;
 }
 
+html {
+	-webkit-text-size-adjust: 100%;
+}
 
+
+/* HEADER */
+.l-header {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #ccc;
+	z-index: 1;
+}
+
+.l-header__icon {
+	max-width: 15%;
+}
+
+.l-header__tagline {
+	max-width: 45%;
+}
+
+.l-header__content {
+	text-align: center;
+	padding: 0.9375rem 0;
+}
+
+@supports (display: flex) {
+	.l-header__content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+/* MAP */
 #map {
     margin-top: 60px;
     height: 100vh;
     background: #e6e6e6;
 }
 
-#header {
-    position: absolute;
-    width: 100%;
-    background: #fff;
-    height: 59px;
-    top: 0;
-    left: 0;
-    border-bottom: 1px solid #ccc;
-}
 
-#header .icon {
-    float: left;
-}
-
-#header .tagline {
-    float: left;
-}
-
-body {
-    margin: 0;
-}
-
+/* LEAFLET */
 .leaflet-popup-close-button {
     display: none;
 }
@@ -68,4 +87,22 @@ body {
 
 .leaflet-popup-content p .grey {
     color: #ccc;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 37.5em) { /* 600 */
+	.l-header__icon,
+	.l-header__tagline {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.l-header__icon {
+		max-width: 3rem;
+	}
+
+	.l-header__tagline {
+		max-width: 10rem;
+	}
 }
