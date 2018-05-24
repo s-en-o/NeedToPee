@@ -33,10 +33,10 @@ Location data should be provided in, or converted to a json array of locations. 
 
 NeedToPee made and maintain by:
 
-*   Christina Houlihan
+*   [Christina Houlihan](https://nz.linkedin.com/in/choulihan)
 *   Cayla Were
-*   Matthew Gray
-*   Gina Marie Stevens
-*   Seno Sulharyadi
+*   [Matthew Gray](https://matthew.nz)
+*   [Gina Marie Stevens](https://www.buildtiny.co.nz/our)
+*   [Seno Sulharyadi](http://seno.me)
 *   Ken Kopelson
-*   Michael Dowse
+*   [Michael Dowse](http://michael.dowse.co.nz/)
