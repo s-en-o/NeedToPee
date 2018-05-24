@@ -1,6 +1,6 @@
 # NeedToPee
 
-NeedToPee was originally created at Startup Weekend Wellington in February 2014 and [come out as a runner up](https://idealog.co.nz/venture/2014/02/music-app-tops-welly-startup-weekend).
+NeedToPee was originally created at Startup Weekend Wellington in February 2014 and [come out as a runner-up](https://idealog.co.nz/venture/2014/02/music-app-tops-welly-startup-weekend).
 NeedToPee is a free service for finding the nearest bathroom or toilet when you really, really need it.
 
 The site is hosted on Github Pages and is available at http://michaeldowse.github.io/NeedToPee. Master is used as a development branch, the gh-pages branch represents what is currently in production.
