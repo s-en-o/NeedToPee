@@ -5,11 +5,11 @@ NeedToPee is a free service for finding the nearest bathroom or toilet when you 
 
 The site is hosted on Github Pages and is available at http://michaeldowse.github.io/NeedToPee. Master is used as a development branch, the gh-pages branch represents what is currently in production.
 
-# Coverage
+## Coverage
 
 NeedToPee currently only supports public bathrooms administered by the Wellington City Council in the Wellington region.
 
-# Location Data
+## Location Data
 
 Location data should be provided in, or converted to a json array of locations. A location is a json object (described below) which must include a set of gps coordinates and may include a series of properties describing the facility which will be displayed directly to the user. All properties are optional but recommended.
 
@@ -29,7 +29,7 @@ Location data should be provided in, or converted to a json array of locations. 
 		}
     }
 
-# Contributors
+## Contributors
 
 NeedToPee made and maintain by:
 
