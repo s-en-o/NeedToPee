@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     // add an OpenStreetMap tile layer http://{s}.tile.osm.org/{z}/{x}/{y}.png
     L.tileLayer(
-        "http://a.tiles.mapbox.com/v3/michaeldowse.helo0de5/{z}/{x}/{y}.png",
+        "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
         {
             attribution:
                 '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'

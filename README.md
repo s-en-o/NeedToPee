@@ -30,13 +30,12 @@ Location data should be provided in, or converted to a json array of locations. 
     }
 
 ## Contributors
-
-NeedToPee made and maintain by:
+NeedToPee was originally created at Startup Weekend Wellington in February 2014 by:
 
 *   [Christina Houlihan](https://nz.linkedin.com/in/choulihan)
 *   Cayla Were
 *   [Matthew Gray](https://matthew.nz)
 *   [Gina Marie Stevens](https://www.buildtiny.co.nz/our)
-*   [Seno Sulharyadi](http://seno.me)
+*   [Amarto Seno](http://sen.ooo)
 *   Ken Kopelson
 *   [Michael Dowse](http://michael.dowse.co.nz/)
